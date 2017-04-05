@@ -1,0 +1,5 @@
+[package]
+
+name = "dialyze-rs"
+version = "0.0.1"
+authors = [ "Nao YONASHIRO <owan.orisano@gmail.com" ]
