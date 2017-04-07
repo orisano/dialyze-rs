@@ -1,5 +1,7 @@
 [package]
-
 name = "dialyze"
 version = "0.0.1"
 authors = [ "Nao YONASHIRO <owan.orisano@gmail.com" ]
+
+[dependencies]
+clap = "2.23.1"
