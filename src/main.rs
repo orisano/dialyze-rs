@@ -27,6 +27,17 @@ fn main() {
              .long("plt_info"))
         .arg(Arg::with_name("get_warnings")
              .long("get_warnings"))
+        .arg(Arg::with_name("output")
+             .short("o")
+             .long("output")
+             .takes_value(true))
+        .arg(Arg::with_name("output_plt")
+             .long("output_plt")
+             .takes_value(true))
+        .arg(Arg::with_name("raw")
+             .long("raw"))
+        .arg(Arg::with_name("fullpath")
+             .long("fullpath"))
         .get_matches();
     let add_to_plt = matches.is_present("add_to_plt");
     println!("{}", add_to_plt);
